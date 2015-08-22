@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "missionYZY",
+  "version": "1",
+  "icons": {},
+  "icons": { "128": "ye.png"},
+  "content_scripts": [
+      {
+    "matches": ["http://www.adidas.com/*"],
+    "js": ["jquery.min.js","missionYZY02.js"]
+  }, 
+      {
+    "matches": ["https://www.adidas.com/us/delivery-start"],
+    "js": ["jquery.min.js","checkOut.js"]
+  }
+ ]
+}

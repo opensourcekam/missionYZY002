@@ -1,0 +1,1 @@
+$(document).ready(function(){var t=function(){$(".paypal-button").click()};setTimeout(t,1e3)});
